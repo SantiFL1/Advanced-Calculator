@@ -1,0 +1,77 @@
+body{
+    background: radial-gradient(white,lightblue , blue);
+}
+#Calculator{
+    background: linear-gradient(180deg , rgb(56, 56, 56) , rgb(0, 0, 0));
+    margin: 0 auto;    
+    box-shadow: 0 15px rgb(51, 51, 51);
+    border-radius: 20px;
+    width: 30em;
+    height: 38em;
+    padding: 2em;
+}
+
+#Screen {
+    background-color: rgb(76, 99, 76);
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+#ButtonsCointainer {
+    
+    position: relative;
+    width:95%;
+    margin: 0 auto;
+    
+    height:25em;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    grid-template-rows: 18% 18% 18% 18% 18% 18% ;
+
+    
+}
+button {
+    margin: 6px;
+    border-radius: 30%;
+    background-color:transparent;
+    box-shadow: 0 3px  rgb(77, 14, 14);
+    color: white;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+.number {
+    background-color: rgb(50, 75, 50);
+    
+}
+#ac {
+    background-color: rgb(119, 56, 56);
+}
+.mode {
+    font-size: 1.1em;
+}
+
+#CalculatorBright {
+    background-color: rgb(196, 196, 196);
+}
+#ScreenString {
+    background: transparent;
+    border: none;
+    font-size: 3em;
+    width: 100%;
+    height: 1em;
+    color: white;
+}
+#Result{  
+    
+    font-size: 2em;
+    float: right;
+    
+    
+    color: white;
+}
+#buttonAjustes {
+    font-size: 1em;
+}
