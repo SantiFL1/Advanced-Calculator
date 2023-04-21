@@ -60,6 +60,8 @@ function Write (key) {
 
     if (key==='F5') {return}
     { //Shortcuts
+
+        if (key==='π') {key=(Math.PI).toFixed(5).toString()}
         
         if (key==='t' || key ==='T') {key='tan'}
 
